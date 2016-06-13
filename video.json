@@ -1,12 +1,16 @@
 {
 	"input": {
-		"html": "https://s3-ap-northeast-1.amazonaws.com/test-animations/blank/index.html",
-		"mp3": "https://s3-ap-northeast-1.amazonaws.com/test-animations/blank/animation/audio.mp3",
+		"html": "http://asmt3.github.io/af-target-reached/index.html",
+		"mp3": "http://asmt3.github.io/af-target-reached/animation/audio.mp3",
 		"data": {
-			"name":"Normal Input",
-			"images": [
-				"img/image.jpg?v=1"
-			]
+			"fundraiser_name": "John Rocky 2 Doeington-Smyth",
+			"amount_raised": 135.7,
+			"charity_name": "Macmillan Cancer",
+			"images": {
+				"profile": {
+					"src": "animation/img/1-portrait.png"
+				}
+			}
 		}
 
 	},

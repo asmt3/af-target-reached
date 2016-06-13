@@ -15,16 +15,14 @@ window.awesomeflix.onReady =  function(timeline) {
 				timeline.from($(this).find('.thingy'), 0.5, {
 					css: {
 						"margin-top":"-100%"
-					},
-					ease: Bounce.easeOut
+					}
 				})
 
 				timeline.to($(this).find('.thingy'), 0.5, {
 					css: {
 						"margin-top":"5%",
 						'font-size': '18px'
-					},
-					ease: Bounce.easeOut
+					}
 				}, '+=1.5')
 
 				timeline.from($(this).find('.profile-image-holder'), 0.5, {

@@ -13,7 +13,10 @@
 7. Create test input for the animation and place in ```animation/input.json```
 8. Add approriate bindings in ```animation/animation.js``` (NB. All imported data is in $scope.data)
 
-## Uploading to S3
+## Create and push to gh-pages branch
+1. ``` git checkout -b gh-pages ```
+1. ``` git push --set-upstream origin gh-pages ```
+3. Check http://asmt3.github.io/<repo name>/ is available
 1. Move to parent folder
 2. Add this folder to ```aws-upload.conf.js```
 2. ```s3-upload```
@@ -42,6 +45,7 @@
 	```
 
 3. Visit Frontend website to view result
+Or just go to: awesomeflix.firebaseio.com/videos
 
 ## 
 
