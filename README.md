@@ -45,3 +45,7 @@
 
 ## 
 
+
+## Deploying
+1. Make sure you're building the whole timeline
+

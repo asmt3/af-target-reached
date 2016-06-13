@@ -45,14 +45,34 @@ window.awesomeflix.onReady =  function(timeline) {
 					css: {
 						"stroke-dasharray": "1130,0"
 					}
-				}, '+=0.05')
+				}, '-=0.5')
+
+				timeline.to($(this).find('.foreground'), 0.1, {
+					css: {
+						"opacity": "0"
+					}
+				}, '+=1')
+
+				timeline.to($(this).find('.background'), 1, {
+					css: {
+						"opacity": "1"
+					}
+				}, '-=1')
+
+				timeline.to($(this).find('.chart .pie'), 1, {
+					css: {
+						"stroke-dasharray": "0,1130"
+					}
+				}, '-=0.01')
+
+				
 
 			},
 			transitionInOffset: '+=2.4'
 			
 		},
-		slideAmount: {
-			container: $("#slide-amount"),
+		slideSupporters: {
+			container: $("#slide-supporters"),
 			animation: function(timeline){
 
 
@@ -143,14 +163,14 @@ window.awesomeflix.onReady =  function(timeline) {
 	} 
 
 	
-	buildTimeline([
-		// "slideCongrats",
-		"slideTarget",
-		"slideAmount",
-		"slideLogo"
-	]);
+	// buildTimeline([
+	// 	// "slideCongrats",
+	// 	// "slideTarget",
+	// 	"slideSupporters",
+	// 	// "slideLogo"
+	// ]);
 
-	// buildTimeline();
+	buildTimeline();
 
 
 	return timeline
