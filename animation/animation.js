@@ -67,7 +67,7 @@ window.awesomeflix.onReady =  function(timeline) {
 				
 
 			},
-			transitionInOffset: '+=2'
+			transitionInOffset: '+=1'
 			
 		},
 		slideSupporters: {
@@ -90,7 +90,7 @@ window.awesomeflix.onReady =  function(timeline) {
 				// }, 1, '-=1')
 
 			},
-			transitionInOffset: '+=2'
+			transitionInOffset: '+=1'
 			
 		},
 
