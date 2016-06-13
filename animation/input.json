@@ -1,6 +1,10 @@
 {
-	"name":"Normal Input",
-	"images": [
-		"img/image.jpg?v=1"
-	]
+	"fundraiser_name": "John Rocky Doeington-Smyth",
+	"amount_raised": 135.7,
+	"charity_name": "Macmillan Cancer",
+	"images": {
+		"profile": {
+			"src": "animation/img/1.jpg"
+		}
+	}
 }

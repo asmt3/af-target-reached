@@ -1,9 +1,57 @@
+<div id="slides-container">
 
-<h1>{{data.name}}</h1>
-<ul>
+  <div class="slide" id="slide-congrats">
+    
+    <div class="thingy">
+      <h1>
+        Congratulations
+      </h1>
+      <p>
+        <span ng-bind-html="data.fundraiser_name" class="fundraiser-name">Person's Name</span>
+      </p>
 
-	<li ng-repeat="(key, image) in data.images">
-		<img ng-src="animation/{{image}}"><br>
-	</li>
+      <div class="profile-image-holder">
+		<div class="inner">
+			<img src="animation/img/1.jpg" ng-src="{{data.images.profile.src}}">
+		</div>
+      </div>
 
-</ul>
+    </div>
+
+  </div>
+
+  <div class="slide" id="slide-target">
+    
+    <div class="foreground">
+      <p>
+        You reached your<br>fundraising target
+      </p>
+    </div>
+
+    <svg width="360" height="360" class="chart">
+		<circle r="180" cx="180" cy="180" class="pie"></circle>
+	</svg>
+
+  </div>
+
+  <div class="slide" id="slide-amount">
+
+
+    <div>
+      <p>
+        Which means you raised &pound;<span ng-bind-html="data.amount_raised" class="amount">XXX.XX</span>
+      </p>
+      <p>
+        for <span ng-bind-html="data.charity_name" class="charity-name">XXX XXX</span>
+      </p>
+    </div>
+    
+  </div>
+
+  <div class="slide" id="slide-logo">
+    
+    <img src="./animation/img/logo-full-canvas.png">
+
+  </div>
+
+</div>

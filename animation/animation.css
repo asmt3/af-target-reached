@@ -1,0 +1,98 @@
+#slides-container {
+	width: 10000px;
+	height: 360px;
+	position: relative;
+}
+.slide {
+	position: relative;
+	float:left;
+	text-align: center;
+	width: 640px;
+	height: 360px;
+	overflow: hidden;
+}
+
+.centered-text {
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+.slide .text {
+	position: absolute;
+}
+.slide .text p {margin:10px;}
+
+/*Individual Slide Styles*/
+
+
+#slide-congrats {
+	
+}
+
+#slide-congrats div.thingy {
+	margin-top:17%;
+}
+
+#slide-target .foreground {
+	margin-top:23%;
+	text-align: center;
+	font-size:24px;
+}
+#slide-target .foreground p {margin:0; color:#fff;}
+
+
+#slide-target .chart {
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background: #ddd;
+    border-radius: 50%;
+    display: block;
+    margin-left:140px;
+}
+#slide-target .chart .pie {
+	fill: #fff;
+	stroke: #AC29B5;
+	stroke-width: 360;
+	stroke-dasharray: 0 1130;
+}
+
+#slide-target .text {
+	color:#fff;
+	font-size:36px;
+}
+
+#slide-amount>div {
+	margin-top:17%;
+}
+
+#hippo, #elephant, #star{
+  visibility:hidden;
+}
+
+
+.profile-image-holder {
+	margin:20px auto;
+	width:50%;
+}
+.profile-image-holder .inner {
+	padding:24px;
+	background: #eee;
+	border:3px solid #ddd;
+    transform: rotate(-5deg);
+    box-shadow: 20px 20px 20px #ddd;
+    border-radius: 2px;
+}
+.profile-image-holder .inner img { max-height: 100%; max-width: 100%;}
+
+
+

@@ -1,4 +1,4 @@
-var app = angular.module('AwesomeApp', [])
+var app = angular.module('AwesomeApp', ['ngSanitize'])
    
 
 

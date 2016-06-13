@@ -4,10 +4,14 @@
 1. Clone this repo
 2. Do ```npm install```
 3. Run ```http-server``` in the base folder (not in ```animation/```)
+4. Visit http://127.0.0.1:8080
+5. Open developer tools
 4. Add animation HTML to ```animation/animation.html```
-5. Add animation JS to ```animation/animation.js```
+7. Add assets to ```animation/img/```
+8. Install fonts, locally 
 6. Add animation CSS to ```animation/animation.css```
 7. Create test input for the animation and place in ```animation/input.json```
+8. Add approriate bindings in ```animation/animation.js``` (NB. All imported data is in $scope.data)
 
 ## Uploading to S3
 1. Move to parent folder
