@@ -21,14 +21,15 @@ window.awesomeflix.onReady =  function(timeline) {
 
 				timeline.to($(this).find('.thingy'), 0.5, {
 					css: {
-						"margin-top":"5%"
+						"margin-top":"5%",
+						'font-size': '18px'
 					},
 					ease: Bounce.easeOut
 				}, '+=1.5')
 
 				timeline.from($(this).find('.profile-image-holder'), 0.5, {
 					css: {
-						"margin-left":"700px",
+						"left":"700px",
 						rotation:"360deg",
 					}
 				}, '+=0.05')
@@ -41,7 +42,7 @@ window.awesomeflix.onReady =  function(timeline) {
 			container: $("#slide-target"),
 			animation: function(timeline){
 
-				timeline.to($(this).find('.chart .pie'), 1, {
+				timeline.to($(this).find('.chart .pie'), 0.5, {
 					css: {
 						"stroke-dasharray": "1130,0"
 					}
@@ -59,7 +60,7 @@ window.awesomeflix.onReady =  function(timeline) {
 					}
 				}, '-=1')
 
-				timeline.to($(this).find('.chart .pie'), 1, {
+				timeline.to($(this).find('.chart .pie'), 0.5, {
 					css: {
 						"stroke-dasharray": "0,1130"
 					}
@@ -68,7 +69,7 @@ window.awesomeflix.onReady =  function(timeline) {
 				
 
 			},
-			transitionInOffset: '+=2.4'
+			transitionInOffset: '+=2'
 			
 		},
 		slideSupporters: {
@@ -91,7 +92,7 @@ window.awesomeflix.onReady =  function(timeline) {
 				// }, 1, '-=1')
 
 			},
-			transitionInOffset: '+=2.4'
+			transitionInOffset: '+=2'
 			
 		},
 

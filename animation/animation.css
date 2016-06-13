@@ -1,7 +1,13 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto/Roboto-Regular.ttf');
+}
+
 #slides-container {
 	width: 10000px;
 	height: 360px;
 	position: relative;
+	font-family: "Roboto";
 }
 .slide {
 	position: relative;
@@ -29,14 +35,14 @@
 .slide .text p {margin:10px;}
 
 /*Individual Slide Styles*/
-
-
 #slide-congrats {
-	
+	background:url("img/congrats-bg.jpg");
+	color:#fff
 }
 
 #slide-congrats div.thingy {
-	margin-top:17%;
+	margin-top:5%;
+	font-size:32px;
 }
 
 #slide-target .foreground {
@@ -86,29 +92,31 @@
 	font-size:36px;
 }
 
+#slide-supporters {
+	background:#AC29B5;
+	color:#fff;
+}
+
 #slide-supporters h1 {
     margin-top: 18%;
     font-size: 105px;
 }
 
-#hippo, #elephant, #star{
-  visibility:hidden;
-}
-
-
 .profile-image-holder {
-	margin:20px auto;
-	width:50%;
+	position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    height: 45%;
 }
-.profile-image-holder .inner {
-	padding:24px;
-	background: #eee;
-	border:3px solid #ddd;
-    transform: rotate(-5deg);
-    box-shadow: 20px 20px 20px #ddd;
-    border-radius: 2px;
+.profile-image-holder img { 
+	max-height: 90%; 
+	max-width: 90%;
+	transform: rotate(-5deg);
+    box-shadow: 20px 20px 20px rgba(32,32,32,0.4);
+    border:10px solid #fff;
+    
 }
-.profile-image-holder .inner img { max-height: 100%; max-width: 100%;}
 
 
 
