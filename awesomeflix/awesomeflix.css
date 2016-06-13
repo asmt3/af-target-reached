@@ -1,0 +1,25 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+#container-animation {
+	width: 640px;
+    height: 360px;
+}
+#controls {
+	background:#eee;
+	padding:40px;
+	font-family: Arial, sans-serif;
+}
+
+.slider-container {
+	padding:0 40px;
+}
+
+#totalTimeValue {
+	padding:8px 16px;
+	background: #222;
+	color:#fff;
+	text-align: center;
+	border-radius: 2px;
+}

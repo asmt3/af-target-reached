@@ -1,0 +1,14 @@
+{
+  "name": "test-phantom-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "phantomjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "s3-upload": "^0.1.0"
+  }
+}

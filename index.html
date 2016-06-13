@@ -1,0 +1,59 @@
+<html ng-app="AwesomeApp">
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<div 
+	ng-controller="AwesomeController"
+	id="container-animation"
+	watchimages
+	ng-include=" animation_html_src "
+>
+
+</div>
+
+<div id="controls" ng-include=" 'awesomeflix/controls.html' "></div>
+
+<!-- 
+TTD:
+- actually use node-phantom
+ -->
+
+<!-- 
+	Gets libraries
+	Gets animation CSS/JS
+	Loads animation HTML
+	Wait for all images to download
+	Starts animation / tells Phantom Ready
+-->
+
+<!-- Angular -->
+<script src="bower_components/angular/angular.js"></script>
+
+<!-- jQuery -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/jquery-ui/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/black-tie/jquery-ui.css">
+
+<!-- Greensock -->
+<script src="greensock/TweenMax.min.js"></script>
+<script src="greensock/plugins/TextPlugin.min.js"></script>
+<script src="greensock/plugins/MorphSVGPlugin.min.js"></script>
+
+<!-- Awesomeflix -->
+<link rel="stylesheet" type="text/css" href="awesomeflix/awesomeflix.css">
+<script src="awesomeflix/awesomeflix.js"></script>
+
+<!-- Custom animation CSS -->
+<link rel="stylesheet" type="text/css" href="animation/animation.css">
+
+<!-- Custom animation JS -->
+<script src="animation/animation.js"></script>
+
+<script src="awesomeflix/app.js"></script>
+
+
+</body>
+</html>
