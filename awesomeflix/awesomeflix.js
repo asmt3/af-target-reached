@@ -21,8 +21,21 @@ var awesomeflix = Object.create({
 
 		// create animation timeline
 		this._timeline = this.onReady(this._timeline)
-		this.callPhantom('animationReady', null)
+
+		// initialise the developer UI
 		this.initUI()
+
+		// tell Phantom as soon as ready
+		if (document.readyState == 'complete') {
+			awesomeflix.callPhantom('animationReady', null)
+		} else {
+			// probably waiting for fonts?
+			window.onload = function() {
+				awesomeflix.callPhantom('animationReady', null)
+			}
+		}
+		
+		
 	},
 
 	triggerImageError: function(src) {
