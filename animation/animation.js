@@ -2,8 +2,6 @@
 
 window.awesomeflix.onReady =  function(timeline) {
 
-
-
 	var slidesContainer = $("#slides-container")
 
 	// slides
@@ -14,21 +12,21 @@ window.awesomeflix.onReady =  function(timeline) {
 
 				timeline.from($(this).find('.thingy'), 0.5, {
 					css: {
-						"margin-top":"-100%"
+						"top": "-100%"
 					}
 				})
 
 				timeline.to($(this).find('.thingy'), 0.5, {
 					css: {
-						"margin-top":"5%",
+						"top": "5%",
 						'font-size': '18px'
 					}
 				}, '+=1.5')
 
 				timeline.from($(this).find('.profile-image-holder'), 0.5, {
 					css: {
-						"left":"700px",
-						rotation:"360deg",
+						"left": "700px",
+						rotation: "360deg",
 					}
 				}, '+=0.05')
 

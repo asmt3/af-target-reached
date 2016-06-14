@@ -1,6 +1,4 @@
 var app = angular.module('AwesomeApp', ['ngSanitize'])
-   
-
 
 app.controller('AwesomeController', function ($http, $timeout, $scope) {
 

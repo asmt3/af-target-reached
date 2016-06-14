@@ -18,6 +18,8 @@ var awesomeflix = Object.create({
 
 	triggerReady: function() {
 		console.log('ready')
+
+		// create animation timeline
 		this._timeline = this.onReady(this._timeline)
 		this.callPhantom('animationReady', null)
 		this.initUI()

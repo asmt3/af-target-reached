@@ -35,18 +35,41 @@
 
 /*Individual Slide Styles*/
 #slide-congrats {
-	background:url("img/congrats-bg.jpg");
-	color:#fff
+	color:#fff;
 }
 
 #slide-congrats div.thingy {
-	margin-top:5%;
-	font-size:32px;
+	position: absolute;
+	top:5%;
+    width: 50%;
+    left: 40%;
 }
+#slide-congrats div.thingy h1 {
+	font-size:45px;
+	margin:5px 0;
+}
+#slide-congrats div.thingy p {font-size:25px;}
 
 #slide-target {
 	background:#fff;
 }
+
+.profile-image-holder {
+	position: relative;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 140px;
+}
+.profile-image-holder img { 
+	max-height: 90%; 
+	max-width: 90%;
+	transform: rotate(-5deg);
+    box-shadow: 20px 20px 20px rgba(32,32,32,0.4);
+    border:10px solid #fff;
+    
+}
+
 
 #slide-target .foreground {
 	position: absolute;
@@ -111,21 +134,6 @@
     font-size: 105px;
 }
 
-.profile-image-holder {
-	position: absolute;
-    top: 40%;
-    left: 25%;
-    width: 50%;
-    height: 45%;
-}
-.profile-image-holder img { 
-	max-height: 90%; 
-	max-width: 90%;
-	transform: rotate(-5deg);
-    box-shadow: 20px 20px 20px rgba(32,32,32,0.4);
-    border:10px solid #fff;
-    
-}
 
 
 #slide-logo {

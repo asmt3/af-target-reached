@@ -2,7 +2,7 @@
 
 ## Developing
 1. Clone this repo
-2. Do ```npm install```
+2. Do ```bower install```
 3. Run ```http-server``` in the base folder (not in ```animation/```)
 4. Visit http://127.0.0.1:8080
 5. Open developer tools
@@ -50,6 +50,22 @@ Or just go to: awesomeflix.firebaseio.com/videos
 ## 
 
 
+## Images
+TODO: preload images in datasource
+
+## Note about background images... 
+don't use them, use instead
+```
+<div class="background-image">
+	<img src="animation/...">
+</div>
+
+```
+
+
 ## Deploying
 1. Make sure you're building the whole timeline
 
+TODO:
+Why some slides screwed by background
+need to hook onto window.load as well
