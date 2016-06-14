@@ -1,0 +1,41 @@
+[{
+	"fundraiser_name": "John Rocky Doeington-Smyth1",
+	"amount_raised": 135.7,
+	"charity_name": "Macmillan Cancer",
+	"images": {
+		"profile": {
+			"src": "animation/img/1-portrait.png"
+		}
+	}
+},
+{
+	"fundraiser_name": "John Rocky Doeington-Smyth2",
+	"amount_raised": 234.7,
+	"charity_name": "Macmillan Cancer",
+	"images": {
+		"profile": {
+			"src": "animation/img/1-portrait.png3"
+		}
+	}
+},
+{
+	"fundraiser_name": "John Rocky Doeington-Smyth4",
+	"amount_raised": 567.7,
+	"charity_name": "Macmillan Cancer",
+	"images": {
+		"profile": {
+			"src": "animation/img/1-portrait.png"
+		}
+	}
+},
+{
+	"fundraiser_name": "John Rocky Doeington-Smyth5",
+	"amount_raised": 786.7,
+	"charity_name": "Macmillan Cancer",
+	"images": {
+		"profile": {
+			"src": "animation/img/1-portrait.png"
+		}
+	}
+}
+]
